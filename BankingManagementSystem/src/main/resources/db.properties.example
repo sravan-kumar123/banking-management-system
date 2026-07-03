@@ -1,0 +1,14 @@
+# Copy this file to "db.properties" in the same folder and fill in your own
+# Oracle Database connection details. db.properties is git-ignored so your
+# real credentials are never committed.
+
+db.driver=oracle.jdbc.driver.OracleDriver
+
+# Format for a local/XE instance:
+# jdbc:oracle:thin:@localhost:1521:XE
+# Format for a pluggable database / service name:
+# jdbc:oracle:thin:@localhost:1521/ORCLPDB1
+db.url=jdbc:oracle:thin:@localhost:1521:XE
+
+db.user=your_username
+db.password=your_password

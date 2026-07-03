@@ -1,0 +1,24 @@
+# Compiled class files
+*.class
+target/
+bin/
+out/
+
+# Real DB credentials - never commit these
+src/main/resources/db.properties
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
